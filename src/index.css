@@ -154,10 +154,10 @@ section {
     }
   }
 
-  .app-showcase {
+  .app-projects {
     @apply w-full mt-20 px-5 md:px-20 py-10 md:py-20 flex items-center justify-center;
 
-    .showcaselayout {
+    .projectslayout {
       @apply flex xl:flex-row flex-col gap-10 justify-between;
     }
 
@@ -165,7 +165,7 @@ section {
       @apply h-full flex flex-col justify-between xl:w-[60%];
 
       .image-wrapper {
-        @apply xl:h-[70vh] md:h-[50vh] h-96 relative;
+        @apply relative w-full aspect-[1468/1011];
 
         img {
           @apply w-full h-full object-cover rounded-xl absolute inset-0;

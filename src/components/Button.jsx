@@ -4,15 +4,15 @@ const Button = ({ text, className, id }) => {
       onClick={(e) => {
         e.preventDefault();
 
-        const target = decodeURIComponent.getElementById("xxx");
+        const target = document.getElementById("projects");
 
         if (target && id) {
           const offset = window.innerHeight * 0.15;
 
           const top =
-            target.getBoundingClientReact().top + window.scrollY - offset;
+            target.getBoundingClientRect().top + window.scrollY - offset;
 
-            window.scrollTo({ top, behavior: "smooth"})
+          window.scrollTo({ top, behavior: "smooth" });
         }
       }}
       className={`${className ?? ""} cta-wrapper`}
