@@ -22,19 +22,24 @@ const words = [
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    imgPath: "/images/adaptability.png",
+    title: "Adaptability",
+    desc: "Quickly adapting to new technologies, environments, and project requirements while staying effective.",
+  },
+  {
+    imgPath: "/images/autonomy.png",
+    title: "Autonomy",
+    desc: "Able to work independently, take ownership of tasks, and drive features from idea to completion.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Teamwork",
+    desc: "Collaborating effectively with others, sharing ideas, and contributing to a healthy development workflow.",
   },
   {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath: "/images/organization.png",
+    title: "Rigor & Organization",
+    desc: "Writing clean, structured code and staying organized to ensure maintainability and scalability.",
   },
 ];
 
