@@ -45,57 +45,60 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "React Developer",
+    name: "JavaScript",
+    imgPath: "/images/logos/javascript.png",
+  },
+  {
+    name: "HTML",
+    imgPath: "/images/logos/html.png",
+  },
+  {
+    name: "CSS",
+    imgPath: "/images/logos/css.png",
+  },
+  {
+    name: "React",
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "Python Developer",
+    name: "Python",
     imgPath: "/images/logos/python.svg",
   },
   {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    name: "Django",
+    imgPath: "/images/logos/django.png",
   },
   {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    name: "Elixir",
+    imgPath: "/images/logos/elixir.svg",
   },
   {
-    name: "Project Manager",
+    name: "Phoenix",
+    imgPath: "/images/logos/phoenix.svg",
+  },
+  {
+    name: "Flutter",
+    imgPath: "/images/logos/flutter.svg",
+  },
+  {
+    name: "AWS",
+    imgPath: "/images/logos/aws.svg",
+  },
+  {
+    name: "SQL",
+    imgPath: "/images/logos/sql.png",
+  },
+  {
+    name: "MongoDB",
+    imgPath: "/images/logos/mongodb.svg",
+  },
+  {
+    name: "Figma",
+    imgPath: "/images/logos/figma.svg",
+  },
+  {
+    name: "Git",
     imgPath: "/images/logos/git.svg",
-  },
-];
-
-const techStackIcons = [
-  {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
-  },
-  {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
   },
 ];
 
@@ -178,12 +181,4 @@ const socialImgs = [
   },
 ];
 
-export {
-  words,
-  abilities,
-  socialImgs,
-  techStackIcons,
-  techStackImgs,
-  expCards,
-  navLinks,
-};
+export { words, abilities, socialImgs, techStackImgs, expCards, navLinks };

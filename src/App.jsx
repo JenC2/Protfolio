@@ -3,6 +3,7 @@ import AbilitiyCards from "./sections/AbilitiyCards";
 import ExperienceSection from "./sections/ExperienceSection";
 import Hero from "./sections/Hero";
 import ProjectsSection from "./sections/ProjectsSection";
+import TechStack from "./sections/TechStack";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <ProjectsSection />
       <AbilitiyCards />
       <ExperienceSection />
+      <TechStack />
     </>
   );
 };
