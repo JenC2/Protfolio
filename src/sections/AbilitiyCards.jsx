@@ -1,19 +1,21 @@
 import { abilities } from "../constants";
+import TitleHeader from "../components/TitleHeader";
 
 const AbilitiyCards = () => {
   return (
-    <div className="w-full padding-x-lg">
-      <div className="mx-auto grid-4-cols">
+    <div className="w-full section-padding">
+      <TitleHeader title="My Qualities" />
+      <div className="mx-auto grid-4-cols mt-32">
         {abilities.map(({ imgPath, title, desc }) => (
           <div
             key={title}
-            className="card-border rounded-xl p-8 flex flex-col gap-4"
+            className="card-border rounded-xl p-8 flex flex-col gap-4 text-center"
           >
-            <div className="size-14 flex items-center justify-center rounded-full">
-              <img src={imgPath} alt={title} />
+            <div className="flex items-center justify-center p-5">
+              <img src={imgPath} alt={title} className="rounded-xl" />
             </div>
             <h3 className="text-white text-2xl font-semibold">{title}</h3>
-            <p className="text-white-50 text-lg">{desc}</p>
+            <p className="text-white-50 text-lg ">{desc}</p>
           </div>
         ))}
       </div>

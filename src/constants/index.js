@@ -22,22 +22,22 @@ const words = [
 
 const abilities = [
   {
-    imgPath: "/images/adaptability.png",
+    imgPath: "/images/adaptability.jpg",
     title: "Adaptability",
     desc: "Quickly adapting to new technologies, environments, and project requirements while staying effective.",
   },
   {
-    imgPath: "/images/autonomy.png",
+    imgPath: "/images/autonomy.jpg",
     title: "Autonomy",
     desc: "Able to work independently, take ownership of tasks, and drive features from idea to completion.",
   },
   {
-    imgPath: "/images/chat.png",
+    imgPath: "/images/team.jpg",
     title: "Teamwork",
     desc: "Collaborating effectively with others, sharing ideas, and contributing to a healthy development workflow.",
   },
   {
-    imgPath: "/images/organization.png",
+    imgPath: "/images/organize.jpg",
     title: "Rigor & Organization",
     desc: "Writing clean, structured code and staying organized to ensure maintainability and scalability.",
   },
