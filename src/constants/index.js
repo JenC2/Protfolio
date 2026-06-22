@@ -14,10 +14,10 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Collaboration", imgPath: "/images/handshake.svg" },
+  { text: "Concepts" },
+  { text: "Designs" },
+  { text: "Code" },
+  { text: "Collaboration" },
 ];
 
 const abilities = [
@@ -169,7 +169,6 @@ const socialImgs = [
     url: "https://www.linkedin.com/",
     imgPath: "/images/github.png",
   },
-
 ];
 
 export { words, abilities, socialImgs, techStackImgs, expCards, navLinks };

@@ -48,7 +48,7 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects" ref={sectionRef} className="app-projects">
-      <div className="w-full">
+      <div className="w-full h-full md:px-15 md:mt-40 px-10">
         <TitleHeader title="My Projects" />
         <div className="projectslayout">
           {/* LEFT */}
@@ -61,7 +61,7 @@ const ProjectsSection = () => {
                 A vibrant community platform dedicated to travel enthusiasts to
                 connect, share experiences, and discover new destinations.
               </h2>
-              <p className="text-white-50 md:text-xl">
+              <p>
                 Built with Vue.js and Django, featuring user authentication,
                 interactive content sharing, and a seamless user experience.
               </p>
@@ -69,19 +69,21 @@ const ProjectsSection = () => {
           </div>
 
           {/* RIGHT */}
-          <div className="project-list-wrapper overflow-hidden">
+          <div className="project-list-wrapper">
             <div className="project" ref={project2Ref}>
               <div className="image-wrapper bg-[#ffefdb]">
                 <img src="/images/project2.png" alt="Adventure Guides" />
               </div>
-              <h2 Guides>Adventure Guides - Travel Information Platform</h2>
+              <h2 className="text-xl md:text-2xl lg:text-3xl">
+                Adventure Guides - Travel Information Platform
+              </h2>
             </div>
 
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffe7eb]">
                 <img src="/images/project3.png" alt="Coming soon" />
               </div>
-              <h2>Coming Soon</h2>
+              <h2 className="text-xl md:text-2xl lg:text-3xl">Coming Soon</h2>
             </div>
           </div>
         </div>
