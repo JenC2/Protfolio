@@ -58,12 +58,13 @@ const ProjectsSection = () => {
             </div>
             <div className="text-content">
               <h2>
-                A vibrant community platform dedicated to travel enthusiasts to
-                connect, share experiences, and discover new destinations.
+                TripTribe - A travel community platform where users can share
+                destinations, trip ideas, and explore travel content.
               </h2>
               <p>
-                Built with Vue.js and Django, featuring user authentication,
-                interactive content sharing, and a seamless user experience.
+                Built with Vue.js and Django. I implemented authentication, REST
+                APIs, database models, content posting flows, and responsive UI
+                screens.
               </p>
             </div>
           </div>

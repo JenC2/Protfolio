@@ -112,7 +112,7 @@ const expCards = [
     responsibilities: [
       "Developed and maintained USSD-based solutions using Elixir, adding new features and fixing production issues.",
       "Built secure backend services with Elixir and Phoenix for tax payment, KYC, and B2W workflows.",
-      "Designed and deployed serverless APIs using Python and AWS (Lambda, API Gateway, S3, DynamoDB).",
+      "Debugged production incidents, shipped backend fixes, integrated external APIs, and deployed serverless AWS services using Lambda, API Gateway, S3, and DynamoDB.",
       "Implemented frontend features for mobile apps using Flutter.",
       "Developed React features for a fintech web application, integrating multiple APIs securely.",
       "Worked in an Agile environment (scrum, code reviews, sprint planning).",

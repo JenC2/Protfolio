@@ -33,9 +33,11 @@ const Hero = () => {
               <h1>to shipped software</h1>
             </div>
             <p className="text-white-50 md:text-xl relation z-10 pointer-events-none">
-              Hi, I’m Jenny, a full-stack developer focused on building web and
-              mobile applications, <br className="hidden xl:block" />
-              from backend systems to clean user experiences.
+              Hi, I’m Jenny, a full-stack developer focused on building fintech,
+              web,
+              <br className="hidden xl:block" />
+              and mobile applications with React, Django, Elixir/Phoenix,
+              Flutter, and AWS.
             </p>
             <Button
               className="md:w-80 md:h-16 w-60 h-12"
