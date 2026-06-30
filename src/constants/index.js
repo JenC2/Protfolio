@@ -161,12 +161,12 @@ const expCards = [
 const socialImgs = [
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/jenny-chen-chou",
     imgPath: "/images/linkedin.png",
   },
   {
     name: "github",
-    url: "https://www.linkedin.com/",
+    url: "https://github.com/JenC2",
     imgPath: "/images/github.png",
   },
 ];

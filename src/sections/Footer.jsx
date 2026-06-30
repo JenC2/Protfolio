@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
 
         <div className="absolute right-0">
-          <p className="text-end">
+          <p className="text-end text-body">
             © {new Date().getFullYear()} Jenny Chen. All rights reserved.
           </p>
         </div>

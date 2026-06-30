@@ -1,8 +1,7 @@
 import { useRef, useState } from "react";
-// import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 
 import TitleHeader from "../components/TitleHeader";
-// import ContactExperience from "../components/models/contact/ContactExperience";
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -20,7 +19,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true); // Show loading state
+    setLoading(true);
 
     try {
       await emailjs.sendForm(
@@ -33,9 +32,9 @@ const Contact = () => {
       // Reset form and stop loading
       setForm({ name: "", email: "", message: "" });
     } catch (error) {
-      console.error("EmailJS Error:", error); // Optional: show toast
+      console.error("EmailJS Error:", error);
     } finally {
-      setLoading(false); // Always stop loading, even on error
+      setLoading(false);
     }
   };
 
@@ -48,7 +47,7 @@ const Contact = () => {
         />
         <div className="grid-12-cols mt-16">
           <div className="xl:col-span-5">
-            <div className="flex-center card-border rounded-xl p-10">
+            <div className="flex-center card-border rounded-xl p-10 text-body">
               <form
                 ref={formRef}
                 onSubmit={handleSubmit}
@@ -108,28 +107,29 @@ const Contact = () => {
             </div>
           </div>
           <div className="xl:col-span-7 min-h-96">
-            <div className="w-full h-full border">
+            <div className="w-full h-full">
               <div className="xl:col-span-7 min-h-96 flex items-center">
                 <div className="w-full h-full flex flex-col justify-center gap-6 px-5 md:px-10">
                   <h2 className="text-3xl md:text-4xl font-semibold text-white">
-                    Let’s build something meaningful together
+                    Let’s build something awesome together
                   </h2>
 
-                  <p className="text-white-50 text-lg leading-relaxed">
-                    Whether you’re looking for a developer, have a project in
-                    mind, or just want to exchange ideas about tech, feel free
-                    to reach out. I’m always open to new opportunities and
-                    interesting conversations.
+                  <p className="text-white-50 text-body leading-relaxed">
+                    Whether you're looking for a developer, have a project in
+                    mind, or simply want to connect and discuss technology, I'd
+                    love to hear from you. I'm always open to exciting
+                    opportunities, meaningful collaborations, and engaging
+                    conversations.
                   </p>
 
-                  <div className="mt-4 flex flex-col gap-3 text-white-50 text-lg">
+                  <div className="mt-4 flex flex-col gap-3 text-white-50 text-body">
                     <p>
                       <span className="text-white font-medium">Email:</span>{" "}
                       <a
                         href="mailto:jenny.chenchou@gmail.com"
                         className="underline hover:text-white transition-colors"
                       >
-                        legendarywaller@gmail.com
+                        jenny.chenchou@gmail.com
                       </a>
                     </p>
 
@@ -138,7 +138,7 @@ const Contact = () => {
                         On the Internet:
                       </span>{" "}
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/jenny-chen-chou"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="underline hover:text-white transition-colors"
@@ -147,7 +147,7 @@ const Contact = () => {
                       </a>{" "}
                       /{" "}
                       <a
-                        href="https://github.com/"
+                        href="https://github.com/JenC2"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="underline hover:text-white transition-colors"
